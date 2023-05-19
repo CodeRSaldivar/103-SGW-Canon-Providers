@@ -26,6 +26,9 @@ C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US
 C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US\prnmngr.vbs -a -m "Canon Generic Plus PCL6" -r CANON-providers-ip-Port -p "103 (SGW) Providers CANON imageCLASS MF264dw II"
 
 
+timeout 5 /NOBREAK
+
+
 C:\Windows\System32\rundll32.exe printui.dll,PrintUIEntry /y /n "103 (SGW) Providers CANON imageCLASS MF264dw II"
 
 echo.
